@@ -61,11 +61,8 @@ function animate(){
 }
 
 
-const music = new Audio('sound.mp3');
 canvas.addEventListener('click', (event) => {
 
-    music.currentTime = 0;
-    music.play();
     const mouseX = event.clientX;
     const mouseY = event.clientY;
     const base_color = 360*Math.random()
